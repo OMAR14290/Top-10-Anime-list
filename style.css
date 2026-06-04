@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    height: 150px;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, blueviolet, rgb(72, 12, 129));
+    border-radius: 2px;
+    color: white;
+    text-shadow: 0 10px 10px black;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    
+}
+.main p{
+    font-size: 1.4rem;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+.main button{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(90deg, blueviolet, rgb(72, 12, 129));
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+.main button:hover{
+    background: linear-gradient(90deg, rgb(171, 91, 245), rgb(114, 36, 187));
+}
+
+.addsection{
+    width: 400px;
+    height: 460px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    display: none;
+}
+.addsection h3{
+    position: absolute;
+    top: 47%;
+    font-size: 1.4rem;
+    background: linear-gradient(90deg, blueviolet, rgb(72, 12, 129));
+    color: transparent;
+    background-clip: text;
+}
+.add{
+   width: 90%;
+   height: 100px;
+   margin: 10px;
+   background: transparent;
+   border-color: blueviolet;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+.addsection input{
+    padding: 13px;
+    border-radius: 5px;
+    background: transparent;
+    border-color: gray;
+    outline: none;
+    width: 220px;
+    transition: 0.3s ease;
+}
+.addsection input:focus{
+    border-color: rgb(95, 20, 166);
+}
+.addsection label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 5px;
+}
+.submit{
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    background: linear-gradient(90deg, blueviolet, rgb(72, 12, 129));
+    color: white;
+    cursor: pointer;
+}
+.submit:hover{
+    background: linear-gradient(90deg, rgb(115, 52, 174), rgb(130, 50, 203));
+}
+
+.list{
+   margin: 30px;
+   width: 90%;
+   height: 250px; 
+   background-color: white;
+   border-radius: 20px;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+   padding: 10px;
+
+}
+.list img{
+    height: 210px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+.list h2{
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+.list h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.list p{
+    font-size: 1.3rem;
+    color: blueviolet;
+    font-weight: bolder;
+}
+span{
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#image{
+    height: 120px;
+    width: 50%;
+    display: none;
+    border-radius: 5px;
+}
+.listcont .list{
+    display: flex;
+}
+.listcont .list .delete{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+}
